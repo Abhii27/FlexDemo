@@ -1,0 +1,109 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: rgb(27, 27, 27);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.card {
+  background: white;
+  width: 300px;
+  margin: 10px;
+  border-radius: 15px;
+  font-family: sans-serif;
+  overflow: hidden;
+  box-shadow: 0 0.5rem 1rem rgba(255, 254, 254, 0.438);
+  background-color: rgba(255, 245, 232, 0.945);
+  align-items: center;
+  justify-content: center;
+}
+
+.card-image {
+  height: 200px;
+  margin-bottom: 15px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 15px 15px 0 0;
+}
+
+.car-1 {
+  background-image: url(img/TajMahal.jpg);
+}
+
+.car-2 {
+  background-image: url(img/Rome.jpg);
+}
+
+.car-3 {
+  background-image: url(img/Artemis.jpg);
+}
+
+.car-4 {
+  background-image: url(img/ChristTheRedeemer.jpg);
+}
+
+.car-5 {
+  background-image: url(img/Lighthouse.jpg);
+}
+
+.car-6 {
+  background-image: url(img/MachuPicchu.jpg);
+}
+
+.car-7 {
+  background-image: url(img/PetraJordan.jpg);
+}
+
+.car-8 {
+  background-image: url(img/Pyramid.jpg);
+}
+
+.car-9 {
+  background-image: url(img/Statue.jpg);
+}
+
+.card p {
+  padding: 10px;
+  text-align: justify;
+}
+
+.card a {
+  background-color: black;
+  color: white;
+  padding: 10px 15px;
+  display: block;
+  text-align: center;
+  margin: 30px 50px;
+  text-decoration: none;
+}
+
+.card:hover {
+  background-color: rgba(34, 31, 31, 0.479);
+  color: white;
+  cursor: pointer;
+  transform: scale(1.05);
+  transition: all 1s ease;
+}
+
+.card a:hover {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
+
+.card h2 {
+  text-align: center;
+  margin-bottom: 10px;
+  text-decoration: underline;
+}
